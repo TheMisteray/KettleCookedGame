@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorkingGame.Enemy" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkingGame.EnemyParent">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAgkAgAIAAIEACACAKAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>EnemyParent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pathFollower" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorkingGame.FloorTile" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FloorTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkingGame.Game1">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AMYEAAAAAAAgCwABABAABRgARhCIIAADEIAIAMAQIBQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_screenManager" />
+      <Field Name="_levelManager" />
+      <Field Name="buttonToMenu" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WorkingGame.LevelManager">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AYAAAgFMAgIAAACDABAAhQAAQIRIyEADCQACAIAECAA=</HashCode>
+      <FileName>LevelManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+      <Property Name="LevelArray" />
+      <Property Name="BoxManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WorkingGame.LightManager" BaseTypeListCollapsed="true">
+    <Position X="16" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYAAUCAAAAAwgQhAIIAIAAAACUEAEABACAAIAAAgIM=</HashCode>
+      <FileName>LightManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorkingGame.PathFollower">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAYAgAAEAgAAAAIAAAAIRAAQAAIAQABAABAAA=</HashCode>
+      <FileName>PathFollower.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="curState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WorkingGame.Player" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAQAAQAgAAgAgoMgAIADcggAACKIAAGIAAAACQhBYQE=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.214" />
+  </Class>
+  <Class Name="WorkingGame.Program" Collapsed="true">
+    <Position X="16" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkingGame.ScreenManager">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAQAAACkCAAAAIBAQAAAQAAAgABAAAAAA=</HashCode>
+      <FileName>ScreenManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="State" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WorkingGame.Tile">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAAhggAAAIAAIAAAACAAAgAAAAAJAAAAAAA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.365" />
+  </Class>
+  <Class Name="WorkingGame.UIButton">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIABABAAAAAAgQAUAAAIAgAAAAAAAgIAAAAAIAAYAA=</HashCode>
+      <FileName>UIButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkingGame.WallTile" Collapsed="true">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>WallTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkingGame.Box">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgoAAAIAAIAAAECAACIAAAAgAAABIAAA=</HashCode>
+      <FileName>Box.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorkingGame.BoxManager">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAAAAAYAAAACAACAAAAAAABAAAA=</HashCode>
+      <FileName>BoxManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="boxes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="WorkingGame.IGameObject">
+    <Position X="16" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="WorkingGame.PathFollower_MovementStates" Collapsed="true">
+    <Position X="8.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAIBA=</HashCode>
+      <FileName>PathFollower.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WorkingGame.state" Collapsed="true">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAgIAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
